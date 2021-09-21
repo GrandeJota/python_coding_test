@@ -1,0 +1,1 @@
+print(f"{ord(input()):d}")
