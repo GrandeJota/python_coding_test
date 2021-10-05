@@ -1,0 +1,5 @@
+a = list(int(i) for i in input().split())
+b = list(int(i) for i in input().split())
+x = sorted([a[0], a[2], b[0], b[2]])
+y = sorted([a[1], a[3], b[1], b[3]])
+print(max(x[3]-x[0], y[3]-y[0])**2)
